@@ -48,8 +48,9 @@ Sklearn didn't work, we needed to install scikit-learn instead.
 
 
 ![img_11'.png](img_11'.png)
-We needed to change the credentials with the ones from the raco maybe.
+
 ## Spotify API exploration
+In this step we want to connect to the Spotify API with Python using the spotpi library in order to retrieve information about a specific playlist from the Spotify API and then obtains details about the songs contained in that playlist as the name of the song, URI, popularity and some details about the main artists. 
 
 ![img_12.png](img_12.png)
 ![img_13.png](img_13.png)
