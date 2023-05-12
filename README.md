@@ -65,6 +65,29 @@ We needed to paste this in terminal, apparently.
 ![img_17.png](img_17.png)
 ![img_18.png](img_18.png)
 
-TODO it doesn't work for me.
+This was actually not the solution! The problem was we need to run "streamlit run app.py"
+instead of "python app.py":
+
+![img_19.png](img_19.png)
+
+This solved this issue, but now the next problem was the following:
+
+![img_20.png](img_20.png)
+
+We looked into the code and saw that it clustered our liked songs. As we made a new
+account for this tutorial, we didn't have any. So we liked some songs ons spotify.
+
+![img_21.png](img_21.png)
+
+Awesome! No we can see the clustering at work!
+
+![img_22.png](img_22.png)
 
 ## General opinion
+
+This was a fascinating tutorial. First of all we learned that there is a free spotify developer API. Amazing! We use spotify every
+day, and it is something we do in our free time. Now we can analyze our own listening habits. We encountered some
+problems trying to get everything running, but that is probably on us. The tutorial was perfect and well documented
+with enough images and screenshots.
+
+If we were to grade this tutorial we would give a 10/10, definitely!

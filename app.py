@@ -27,7 +27,7 @@ elif range_selected == 'Top 100':
 
 os.environ['SPOTIPY_CLIENT_ID'] = 'f63c3294ef9445f6b5a88f9b30727fbe'
 os.environ['SPOTIPY_CLIENT_SECRET'] = '7f5fb66ac30d4fae90d8d3df4a3fd5dc'
-os.environ['SPOTIPY_REDIRECT_URI'] = 'http://localhost/callback'
+os.environ['SPOTIPY_REDIRECT_URI'] = 'http://localhost:8080/callback'
 
 scope = "user-library-read"
 
