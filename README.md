@@ -40,10 +40,11 @@ Sklearn didn't work, we needed to install scikit-learn instead.
 
 ![img_10.png](img_10.png)
 
-This resulted in a blank page. Something is wrong here.
 
 ![img_11.png](img_11.png)
 
+
+![img_11'.png](img_11'.png)
 We needed to change the credentials with the ones from the raco maybe.
 
 ![img_12.png](img_12.png)
