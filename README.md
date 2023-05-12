@@ -1,9 +1,10 @@
 # Tutorial 6: Build a Spotify-integrated App
 
+This tutorial consistes on discovering the spotify API by regestering in spotify as a developer, creating an application and finaly interacting with the Spotify services.
+
 ## Getting started
 
-First we needed to create a spotify account. For the sake fo the excercise we created a new
-one with our UPC email.
+First of all we started by creating a new account and regestering as a develpper so we will be able to create application.
 
 ![img.png](img.png)
 
@@ -24,10 +25,12 @@ tutorial is clear and the spotify platform as well.
 ![img_6.png](img_6.png)
 
 ## Basic Demo WebApp
+In order to test the webApp we have used the code given.
+This code is a Streamlit web application that demonstrates clustering of Spotify songs based on their audio features.
+The code creates an app which provides the user with a sidebar to select the range of top songs he wants to analyze and depending on the user's selection the top tracks are fetched and stored. If the clustering button is clicked, the selected songs are processed and the clustering algorithm is applied.
+The resulting clusters are plotted in a scatter plot and finaly the scatter plot should be displayed in the Streamlit web app.
 
-The tutorial supplied us with some streamlit code, so we copied it into our repo.
-
-We need to install the spotipy library first.
+First, to run this code, we need to install the spotipy library.
 
 ![img_7.png](img_7.png)
 
@@ -40,11 +43,14 @@ Sklearn didn't work, we needed to install scikit-learn instead.
 
 ![img_10.png](img_10.png)
 
-This resulted in a blank page. Something is wrong here.
 
-![img_11.png](img_11.png)
+![img_11".png](spotify-autho.png)
 
-We needed to change the credentials with the ones from the raco maybe.
+
+![img_11'.png](img_11'.png)
+
+## Spotify API exploration
+In this step we want to connect to the Spotify API with Python using the spotpi library in order to retrieve information about a specific playlist from the Spotify API and then obtains details about the songs contained in that playlist as the name of the song, URI, popularity and some details about the main artists. 
 
 ![img_12.png](img_12.png)
 ![img_13.png](img_13.png)
