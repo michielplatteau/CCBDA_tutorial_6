@@ -44,7 +44,7 @@ Sklearn didn't work, we needed to install scikit-learn instead.
 ![img_10.png](img_10.png)
 
 
-![img_11.png](img_11.png)
+![img_11".png](spotify-autho.png)
 
 
 ![img_11'.png](img_11'.png)
